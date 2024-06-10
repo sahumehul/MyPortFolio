@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Navbar.css"
 import MobileNav from '../MabileNav/MobileNav';
+import pdf from "../pdf/MehulResume.pdf"
 
 const Navbar = () => {
 
@@ -14,7 +15,7 @@ const Navbar = () => {
     <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
         <nav className='nav-wrapper'>
             <div className='nav-content'>
-                <img className='logo' src='./assets/images/logo.jpg' alt='logo'/>
+                <img className='logo' src='./assets/images/logo.webp' alt='logo'/>
                 <ul>
                     <li>
                         <a href="#home" className='menu-item'>Home</a>
@@ -29,7 +30,12 @@ const Navbar = () => {
                         <a href="#contactme" className='menu-item'>Contact me</a>
                     </li>
                     <button className='contact-btn' onClick={toggleMenu}>
-                        Hire me
+                    <a
+						href={pdf}
+						download="MehulResume.pdf"
+					>
+						Download Resume
+					</a>
                     </button>
                 </ul>
                 <button className='menu-btn' onClick={toggleMenu}>

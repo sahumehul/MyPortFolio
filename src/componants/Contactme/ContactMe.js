@@ -11,6 +11,7 @@ const ContactMe = () => {
             <div style={{flex: 1}}>
                 <ContactInfoCard iconUrl="./assets/images/mail.png" text="mehulmk9179@gmail.com"/>
                 <ContactInfoCard iconUrl="./assets/images/github.png" text="https://github.com/sahumehul"/>
+                <ContactInfoCard iconUrl="./assets/images/linkedin.png" text="https://www.linkedin.com/in/mehul-sahu-4352181b2/"/>
             </div>
             <div style={{flex: 1}}>
                 <ContactForm/>

@@ -19,6 +19,8 @@
 .logo{
     width: 12rem;
     height: 5vh;
+    border-radius: 3px ;
+    object-fit: fill;
 }
 
 .nav-content ul{
@@ -61,7 +63,7 @@
 }
 
 .contact-btn{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -73,7 +75,18 @@
     border-radius: 0.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
+
+.contact-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-btn a:hover{
+    color: #a993fe;
+}
+
 
 .contact-btn:hover{
     color: #a993fe;

@@ -25,7 +25,6 @@ export const SKILLS = [
     { skill: "Visual Studio Code", percentage: "75%"},
     { skill: "Webpack", percentage: "60%"},
     { skill: "Responsive Design", percentage: "70%"},
-    1,
 ]},
 {
     title: "Soft Skills",
@@ -35,7 +34,6 @@ export const SKILLS = [
     { skill: "Visual Studio Code", percentage: "75%"},
     { skill: "Webpack", percentage: "60%"},
     { skill: "Responsive Design", percentage: "70%"},
-    1,
 ]}
 
 ]
