@@ -7,19 +7,19 @@ const MobileNav = ({isOpen, toggleMenu}) => {
     <>
         <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
             <div className='mobile-menu-container'>
-                <img src='./assets/images/logo.webp'/>
+                <img src='./assets/images/logo.webp' alt='logo'/>
                 <ul>
                     <li>
-                        <a className='menu-item'>Home</a>
+                        <a href='#home' className='menu-item'>Home</a>
                     </li>
                     <li>
-                        <a href="#" className='menu-item'>Skills</a>
+                        <a href="#skills" className='menu-item'>Skills</a>
                     </li>
                     <li>
-                        <a href="#" className='menu-item'>Work Experience</a>
+                        <a href="#workexp" className='menu-item'>Work Experience</a>
                     </li>
                     <li>
-                        <a href="#" className='menu-item'>Contact me</a>
+                        <a href="#contactme" className='menu-item'>Contact me</a>
                     </li>
                     <button className='contact-btn'>
                     <a

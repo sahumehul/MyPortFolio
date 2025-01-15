@@ -23,49 +23,43 @@ export const SKILLS = [
     skills: [
     { skill: "Git & GitHub", percentage: "85%"},
     { skill: "Visual Studio Code", percentage: "75%"},
-    { skill: "Webpack", percentage: "60%"},
     { skill: "Responsive Design", percentage: "70%"},
 ]},
-{
-    title: "Soft Skills",
-    icon: "./assets/images/abilities.png",
-    skills: [
-    { skill: "Git & GitHub", percentage: "85%"},
-    { skill: "Visual Studio Code", percentage: "75%"},
-    { skill: "Webpack", percentage: "60%"},
-    { skill: "Responsive Design", percentage: "70%"},
-]}
 
 ]
 
 export const WORK_EXPERIENCE = [
     {
-      "title": "Senior Frontend Developer at Tech Innovators",
-      "date": "January 2022 – Present",
+      "title": "Ride-Booking-App",
+      "date": "December 24- january 25",
       "responsibilities": [
-        "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase.",
-        "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-        "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-        "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency."
+        "Technologies Used: React JS, JavaScript, HTML, CSS, Node.js, Express.js, Mongoose, MongoDB,Socket.IO, GSAP, Tailwind CSS, Google Cloud",
+        "Real-Time Functionality: Integrated Socket.IO to enable real-time communication between drivers andusers for seamless ride updates and notifications.",
+        "Location Features: Utilized Google Cloud APIs to provide accurate pickup and destination location suggestions and dynamically calculate ride prices based on distance and route optimization.",
+        "Authentication & Authorization: Implemented secure user authentication using JWT tokens and password hashing with Bcrypt for enhanced data protection",
+        "RESTful APIs: Designed and implemented RESTful APIs with Express.js for smooth interaction between the front-end and back-end.",
+        "Error Handling & Validation: Integrated robust error-handling mechanisms and input validation to ensure reliable and accurate data processing.",
+        "Responsive Design: Created a mobile-first, fully responsive design using React, Tailwind CSS, and GSAP for smooth animations and an engaging user interface."
       ]
     },
     {
-      "title": "Junior Web Developer at Digital Solution",
-      "date": "June 2020 – December 2021",
+      "title": "Food-Delivery-App",
+      "date": "August 2024 – September 2024",
       "responsibilities": [
-        "Developed and maintained client websites, ensuring high-quality standards and timely project delivery.",
-        "Implemented SEO best practices, leading to a 25% increase in organic search traffic for key clients.",
-        "Worked closely with the design team to create pixel-perfect, cross-browser-compatible web pages.",
-        "Conducted code reviews and mentored junior developers in adopting best coding practices."
+        "Technologies used: React JS, JavaScript, HTML ,CSS,Node.js, Express. js, Mongoose, MongoDB",
+        "Implemented user authentication and authorization with JWT tokens and password hashing using bcrypt for enhanced security",
+        "Architected RESTful APIs using Express.js, allowing seamless communication between the front- end and back-end, ensuring reliable data synchronization",
+        "Implemented comprehensive error handling and input validation mechanisms, ensuring data accuracy and providing meaningful feedback to users during form creation and editing.",
+        "Responsive Design: A fully responsive design ensures a seamless experience on a variety of devices. Front-End Technologies: Utilized HTML, CSS, React and Bootstrap for an aesthetically pleasing and intuitive user interface"
       ]
     },
     {
-      "title": "Frontend Intern at Web Studio",
-      "date": "May 2019 – August 2019",
+      "title": "Web devloper Intern at Innobyte services",
+      "date": "April 2024 – May 2024",
       "responsibilities": [
-        "Assisted in the development of a new e-commerce platform, contributing to the implementation of frontend features.",
+        "Technologies Used:JavaScript, React.js,Framer motion.",
         "Conducted performance optimization tasks, resulting in a 15% improvement in page load times.",
-        "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and resolve issues.",
+        "Worked using React and CSS, Framer motion for animation.",
         "Gained hands-on experience with version control systems, specifically Git, in a collaborative development environment."
       ]
     }

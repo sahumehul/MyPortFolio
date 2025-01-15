@@ -12,7 +12,7 @@ const Skill = () => {
         setSelectedskill(data)
     }
   return (
-    <section className='skill-container'>
+    <section className='skill-container'  id="skills">
         <h5>Technical proficiency</h5>
         <div className='skill-content'>
             <div className='skills'>
